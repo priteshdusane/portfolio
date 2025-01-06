@@ -6,7 +6,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-// import CV from "../../assets/cv.pdf";
+import CV from "../../assets/pritesh-resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -53,7 +53,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href="#" download>
+        <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
       </div>
