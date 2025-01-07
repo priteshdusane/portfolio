@@ -12,13 +12,13 @@ function Projects() {
         <ProjectCard
           src={card}
           link="https://github.com/priteshdusane/react-character-searcher"
-          h3="Character Searcher"
+          h3="SearchDeck"
           p="Gamecard Searcher App"
         />
         <ProjectCard
           src={world}
           link="https://github.com/priteshdusane/react-global-gazetteer"
-          h3="Global Gazetteer"
+          h3="GlobalGazetteer"
           p="Country Information App"
         />
         <ProjectCard
