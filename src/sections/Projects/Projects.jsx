@@ -11,7 +11,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={card}
-          link="https://github.com/priteshdusane/react-character-searcher"
+          link="https://github.com/priteshdusane/react-search-deck"
           h3="SearchDeck"
           p="Gamecard Searcher App"
         />
